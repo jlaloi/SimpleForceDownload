@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Simple Force Download",
+  "description": "This extension allow the user to force the download of the provided URL",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "downloads"
+  ]
+}
